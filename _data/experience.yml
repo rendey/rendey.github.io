@@ -3,26 +3,26 @@
 - title: Computer Networks (CSE 25161)
   period: Fall 2014	
   description: Bridge Programming using WinPcap Driver and CPP
-               Dynamic Router Programming (RIP) using WinPcap Driver and CPP
-               Network Address Translation (NAT) Programming using WinPcap Driver and CPP
+               Dynamic Router Programming (RIP) using WinPcap Driver and CPP<p>
+               Network Address Translation (NAT) Programming using WinPcap Driver and CPP<p>
 
 - title: Computer Network Design (CSE 25170)
   period: Spring 2016
-  description: Static Routing practice using CISCO router
-               Dynamic routing design and practice using RIP and OSPF with CISCO router\n
-               AS design practice using border gateway protocol (BGP) with CISCO router'\n'
+  description: Static Routing practice using CISCO router<p>
+               Dynamic routing design and practice using RIP and OSPF with CISCO router<p>
+               AS design practice using border gateway protocol (BGP) with CISCO router<p>
                Path Attribute practice using CISCO router<p>
                Load Balancing Routing practice using partial routing with CISCO router
 
 - title: Mobile Communication (CSE 25173)
   period: Fall 2016
-  description: LTE attachment procedure and protocol practice using WinPcap Driver and C++
+  description: LTE attachment procedure and protocol practice using WinPcap Driver and CPP<p>
 
 - title: Data Communication (CSE 14773)
   period: Spring 2017
-  description: Inter-process Communication (IPC) Programming using C++
-               Ethernet Communication Programming using WinPcap Driver and C++
-               Address Resolution Protocol (ARP) Programming using WinPcap Driver and C++
+  description: Inter-process Communication (IPC) Programming using CPP<p>
+               Ethernet Communication Programming using WinPcap Driver and CPP<p>
+               Address Resolution Protocol (ARP) Programming using WinPcap Driver and CPP<p>
 
 - title: Funded Project Experience
   period: 2015-2018
