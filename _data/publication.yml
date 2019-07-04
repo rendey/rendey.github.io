@@ -1,14 +1,21 @@
-- number: [1]
-  description: Taehun Yang, Yongbin Yim and Kwansoo Jung, "Reliable Real-Time Data Dissemination Protocol in Wireless Sensor Networks," The Journal of Korean Institute of Communications and Information Sciences, vol. 40, no. 8, pp. 1567~1576, Aug. 2015.
+- number: Refereed Journal Publications
+- description: Taehun Yang, Yongbin Yim and Kwansoo Jung, "Reliable Real-Time Data Dissemination Protocol in Wireless Sensor Networks," The Journal of Korean Institute of Communications and Information Sciences, vol. 40, no. 8, pp. 1567~1576, Aug. 2015.
+- description: Sangdae Kim, Cheonyong Kim, Hyunchong Cho, Taehun Yang and Sang-Ha Kim, "Symmetric Inter-Communication Scheme among Mobile Objects in Wireless Sensor Networks," The Journal of Korean Institute of Communications and Information Sciences, vol. 40, no. 10, pp. 2014~2025, Oct. 2015.
+- description: Taehun Yang, Sangdae Kim, Hyunchong Cho, Cheonyong Kim and Sang-Ha Kim, "Local Grid-based Multipath Routing Protocol for Mobile Sink in Wireless Sensor Networks," Journal of KIISE, vol. 43, no. 12, pp. 1428~1436, Dec. 2016.
+- description: Cheonyong Kim, Taehun Yang, Sangdae Kim, Hyunchong Cho and Sang-Ha Kim, "A Real-time Multicasting Protocol using Time Deadline in Wireless Sensor Networks," Journal of KIISE, Vol. 44, No. 1, pp. 107~113, Jan. 2017.
+- description: Taehun Yang, Hyunchong Cho, Sangdae Kim, Cheonyong Kim and Sang-Ha Kim, "Improved Real-time Transmission Scheme using Temporal Gain in Wireless Sensor Networks," Journal of KIISE, vol. 44, no. 10, pp. 1062~1070, Oct. 2017.
 
-- number: [2]
-  description: Sangdae Kim, Cheonyong Kim, Hyunchong Cho, Taehun Yang and Sang-Ha Kim, "Symmetric Inter-Communication Scheme among Mobile Objects in Wireless Sensor Networks," The Journal of Korean Institute of Communications and Information Sciences, vol. 40, no. 10, pp. 2014~2025, Oct. 2015.
-
-- number: [3]
-  description: Taehun Yang, Sangdae Kim, Hyunchong Cho, Cheonyong Kim and Sang-Ha Kim, "Local Grid-based Multipath Routing Protocol for Mobile Sink in Wireless Sensor Networks," Journal of KIISE, vol. 43, no. 12, pp. 1428~1436, Dec. 2016.
-
-- number: [4]
-  description: Cheonyong Kim, Taehun Yang, Sangdae Kim, Hyunchong Cho and Sang-Ha Kim, "A Real-time Multicasting Protocol using Time Deadline in Wireless Sensor Networks," Journal of KIISE, Vol. 44, No. 1, pp. 107~113, Jan. 2017.
-  
-- number: [5]
-  description: Taehun Yang, Hyunchong Cho, Sangdae Kim, Cheonyong Kim and Sang-Ha Kim, "Improved Real-time Transmission Scheme using Temporal Gain in Wireless Sensor Networks," Journal of KIISE, vol. 44, no. 10, pp. 1062~1070, Oct. 2017.
+- number: Refereed Conference Publications
+- description: Taehun Yang, Sangdae Kim, Cheonyong Kim, Hyunchong Cho and Sang-Ha Kim, "Real-time Dissemination Protocol for Reliability Improvementin Wireless Sensor Networks," Proceedings of Symposium of the Korean Institute of communications and Information Sciences, pp. 63~64, Jun. 2015.
+- description: Cheonyong Kim, Hyunchong Cho, Taehun Yang, Sangdae Kim and Sang-Ha Kim, "Opportunistic Multipath Routing for Enhancing End-to-end Reliability in Wireless Sensor Networks," Proceedings of Symposium of the Korean Institute of communications and Information Sciences, pp. 65~66, Jun. 2015.
+- description: Sangdae Kim, Cheonyong Kim, Hyunchong Cho, Taehun Yang and Sang-Ha Kim, "Accuracy enhancement for Continuous Object Tracking in Wireless Sensor Networks," Proceedings of Symposium of the Korean Institute of communications and Information Sciences, pp. 1366~1367, Jun. 2015.
+- description: Cheonyong Kim, Hyunchong Cho, Sangdae Kim, Taehun Yang, Sang-Ha Kim, “Sink Mobility Support Scheme for Continuous Object Tracking in Wireless Sensor Networks,” IEEE Advanced Information Networking and Applications (AINA), pp. 452-457 Mar. 2016.
+- description: Taehun Yang, Cheonyong Kim, Sangdae Kim, Euisin Lee, Sang-Ha Kim, "Enhanced Real-time Transmission using Time Gain in Wireless Sensor Networks," 2016 15th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN), pp.1-2, April. 2016.
+- description: Taehun Yang, Sangdae Kim, Cheonyong Kim, Hyunchong Cho and Sang-Ha Kim, "Wireless Sensor Network Construction based on Wi-Fi for Internet of Things Services," Proceedings of Symposium of KIISE, pp. 513~515, Jun. 2016.
+- description: Cheonyong Kim, Taehun Yang, Sangdae Kim, Hyunchong Cho and Sang-Ha Kim, "Real-time Multicasting Scheme using Time Limitation in Wireless Sensor Networks," Proceedings of Symposium of KIISE, pp. 504~506, Jun. 2016.
+- description: Sangdae Kim, Jeongcheol Lee, Hyunchong Cho, Taehun Yang, Cheonyong Kim, and Sang-Ha Kim, "Multipath-based Opportunistic Routing Scheme for Large-scale Wireless Sensor Networks," IEEE Industrial Electronics Conference (IECON), pp. 4671-4676, Oct. 2016.
+- description: Taehun Yang, Hyunchong Cho, Sangdae Kim, Cheonyong Kim and Sang-Ha Kim, "Comparative Study for Information Collection System using Short-range Wireless Technology in Internet of Things," Proceedings of Symposium of the Korean Institute of communications and Information Sciences, pp. 1288~1289, Jun. 2017.
+- description: Sangdae Kim, Hyunchong Cho, Taehun Yang, Cheonyong Kim, and Sang-Ha Kim, "Low-Cost Multipath Routing Protocol by Adapting Opportunistic Routing in Wireless Sensor Networks," IEEE Wireless Communications and Networking Conference (WCNC), Mar. 2017.
+- description: Cheonyong Kim, Yongbin Yim, Taehun Yang, Sangdae Kim, and Sang-Ha Kim, "Multipath Management Scheme for Supporting Sink Mobility in Wireless Sensor Networks," IEEE Wireless Communications and Networking Conference (WCNC), pp. 1-6, Mar. 2017.
+- description: Sangdae Kim, Taehun Yang, Cheonyong Kim, Hyunchong Cho, and Sang-Ha Kim, "Dynamic Anchors based Void Avoidance Scheme for Real-time Application in WSNs," IEEE Vehicular Technology Conference (VTC-Fall), pp. xxx, Sep. 2017.
+- description: Hyunchong Cho, Seungmin Oh, Yongbin Yim, Sangdae Kim, Taehun Yang, and Sang-Ha Kim, "The Energy Efficient and Disjointed Multipath for Void Handling in Wireless Sensor Networks," IEEE Vehicular Technology Conference (VTC-Fall), pp. xxx, Sep. 2017.
