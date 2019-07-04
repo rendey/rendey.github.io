@@ -8,8 +8,8 @@
                Network Address Translation (NAT) Programming using WinPcap Driver and CPP<p>
 
 - title: Computer Network Design (CSE 25170)
-  period: Spring 2016
-          Spring 2019<p>
+  period: Spring 2016<p>
+          Spring 2019
   description: Static Routing practice using CISCO router<p>
                Dynamic routing design and practice using RIP and OSPF with CISCO router<p>
                AS design practice using border gateway protocol (BGP) with CISCO router<p>
@@ -21,8 +21,8 @@
   description: LTE attachment procedure and protocol practice using WinPcap Driver and CPP<p>
 
 - title: Data Communication (CSE 14773)
-  period: Spring 2017
-          Spring 2018<p>
+  period: Spring 2017<p>
+          Spring 2018
   description: Inter-process Communication (IPC) Programming using CPP<p>
                Ethernet Communication Programming using WinPcap Driver and CPP<p>
                Address Resolution Protocol (ARP) Programming using WinPcap Driver and CPP<p>
