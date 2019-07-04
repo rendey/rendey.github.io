@@ -25,3 +25,17 @@
         </dd>
     {% endfor %}
 </dl>
+
+<h3 class="section-title">AWARDS, SCHOLASHIP, AND FELLOWSHIP</h3>
+<dl class="certification">
+    {% for certification in site.data.certification %}
+        <dt>
+            <p class="title">{{ certification.certification }}</p>
+            <p class="company">{{ certification.school }}</p>
+            <p class="period">{{ certification.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ qualification.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
