@@ -1,13 +1,26 @@
-<h3 class="section-title">Experience</h3>
+<h3 class="section-title">Information</h3>
+<dl class="information">
+    {% for job in site.data.jobs %}
+        <dt>
+            <p class="title">{{ information.title }}</p>
+            <p class="company">{{ information.company }}</p>
+            <p class="period">{{ information.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ information.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Professional Experience</h3>
 <dl class="experience">
     {% for job in site.data.jobs %}
         <dt>
-            <p class="title">{{ job.title }}</p>
-            <p class="company">{{ job.company }}</p>
-            <p class="period">{{ job.period }}</p>
+            <p class="title">{{ experience.title }}</p>
+            <p class="period">{{ experience.period }}</p>
         </dt><!--
         --><dd>
-            <p>{{ job.description }}</p>
+            <p>{{ experience.description }}</p>
         </dd>
     {% endfor %}
 </dl>
