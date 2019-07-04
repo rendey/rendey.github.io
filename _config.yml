@@ -11,9 +11,9 @@ job: Ph.D
 location: Daejeon, S. Korea
 #languages: HTML, CSS and Javascript
 #twitter_username: mattcouchman
-#github_username:  mattcouchman
-#codepen_username:  mattcouchman
-#email_address: some@email.com
+github_username:  rendey
+linkedin_username:  taehunyang
+email_address: thyang.spring@gmail.com
 
 # Build settings
 markdown: kramdown
