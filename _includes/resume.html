@@ -12,6 +12,18 @@
     {% endfor %}
 </dl>
 
+<h3 class="section-title">Publication</h3>
+<dl class="publication">
+    {% for publication in site.data.publication %}
+        <dt>
+            <p class="title">{{ publication.number }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ publication.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
 <h3 class="section-title">Professional Experience</h3>
 <dl class="experience">
     {% for experience in site.data.experience %}
