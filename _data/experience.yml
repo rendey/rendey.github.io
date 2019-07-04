@@ -9,9 +9,9 @@
 - title: Computer Network Design (CSE 25170)
   period: Spring 2016
   description: Static Routing practice using CISCO router
-               Dynamic routing design and practice using RIP and OSPF with CISCO router
-               AS design practice using border gateway protocol (BGP) with CISCO router
-               Path Attribute practice using CISCO router
+               Dynamic routing design and practice using RIP and OSPF with CISCO router\n
+               AS design practice using border gateway protocol (BGP) with CISCO router'\n'
+               Path Attribute practice using CISCO router<p>
                Load Balancing Routing practice using partial routing with CISCO router
 
 - title: Mobile Communication (CSE 25173)
