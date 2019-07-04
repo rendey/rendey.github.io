@@ -39,3 +39,16 @@
         </dd>
     {% endfor %}
 </dl>
+
+<h3 class="section-title">RELEVANT COURSES</h3>
+<dl class="courses">
+    {% for courses in site.data.courses%}
+        <dt>
+            <p class="title">{{ courses.title }}</p>
+            <p class="company">{{ courses.school }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ courses.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
