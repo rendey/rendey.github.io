@@ -1,23 +1,27 @@
-- title:Teaching Experience
+- title: Teaching Experience
   period: 
-  description:Teaching Assistant for Practices of Network Configuration and Network Programming in Classes of Prof. Sang-Ha Kim who is the dissertation advisor
+  description: Teaching Assistant for Practices of Network Configuration and Network Programming in Classes of Prof. Sang-Ha Kim who is the dissertation advisor
   
-- title:Computer Networks (CSE 25161)
-  period:Fall 2014	
-  description:Bridge Programming using WinPcap Driver and CPP
-              Dynamic Router Programming (RIP) using WinPcap Driver and CPP
-              Network Address Translation (NAT) Programming using WinPcap Driver and CPP
+- title: Computer Networks (CSE 25161)
+  period: Fall 2014	
+  description: Bridge Programming using WinPcap Driver and CPP
+               Dynamic Router Programming (RIP) using WinPcap Driver and CPP
+               Network Address Translation (NAT) Programming using WinPcap Driver and CPP
 
-- title:
-  period:
-  description:
-- title:
-  period:
-  description:
-- title:
-  period:
-  description:
-- title:
-  period:
-  description:
-  
+- title: Computer Network Design (CSE 25170)
+  period: Spring 2016
+  description: Static Routing practice using CISCO router
+               Dynamic routing design and practice using RIP and OSPF with CISCO router
+               AS design practice using border gateway protocol (BGP) with CISCO router
+               Path Attribute practice using CISCO router
+               Load Balancing Routing practice using partial routing with CISCO router
+
+- title: Mobile Communication (CSE 25173)
+  period: Fall 2016
+  description: LTE attachment procedure and protocol practice using WinPcap Driver and C++
+
+- title: Data Communication (CSE 14773)
+  period: Spring 2017
+  description: Inter-process Communication (IPC) Programming using C++
+               Ethernet Communication Programming using WinPcap Driver and C++
+               Address Resolution Protocol (ARP) Programming using WinPcap Driver and C++
