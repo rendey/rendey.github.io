@@ -1,13 +1,15 @@
 <!doctype html>
 <html>
     <body>
-        <div width=30%>
-            {% include head.html %}
-        </div>
-        <div width=70%>
-            {% include header.html %}
-                {{ content }}
-            {% include footer.html %}
+        <div id="container">
+            <div id="left", width=30%>
+                {% include head.html %}
+            </div>
+            <div id="right", width=70%>
+                {% include header.html %}
+                    {{ content }}
+                {% include footer.html %}
+            </div>
         </div>
     </body>
 </html>
