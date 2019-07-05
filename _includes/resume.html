@@ -14,12 +14,11 @@
 <h3 class="section-title">Publication</h3>
 <dl class="publication">
     {% for publication in site.data.publication %}
-        <dt>
-            <p class="title">{{ publication.number }}</p>
-        </dt><!--
-        --><dd>
-            <p>{{ publication.description }}</p>
-        </dd>
+        <div class="item">
+            <p class="title">{{ publication.title }}</p>
+            <p class="period">{{ publication.authors }}</p>
+            <p class="company">{{ publication.publication }}</p>
+        </div>
     {% endfor %}
 </dl>
 
