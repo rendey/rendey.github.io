@@ -11,14 +11,8 @@ dt, dd {
     margin-bottom: $spacer;
 }
 
-div {
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: $spacer;
-}
-
 @media(min-width: 640px) {
-    dt, dd, div {
+    dt, dd {
         margin-bottom: 60px;
     }
         
