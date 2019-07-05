@@ -15,7 +15,19 @@ dt, dd {
     dt, dd {
         margin-bottom: 60px;
     }
-        
+    
+    .information {
+        dt, dd {
+            width: 50%;
+        }
+    }
+    
+    .publication {
+        dt, dd {
+            width: 50%;
+        }
+    }
+    
     .experience {
         dt {
             width: 30%;
@@ -27,6 +39,18 @@ dt, dd {
     }
 
     .education {
+        dt, dd {
+            width: 50%;
+        }
+    }
+    
+    .certification {
+        dt, dd {
+            width: 50%;
+        }
+    }
+    
+    .courses {
         dt, dd {
             width: 50%;
         }
