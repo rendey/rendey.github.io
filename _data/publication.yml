@@ -1,73 +1,73 @@
 #- number: Refereed International Conference Publications
 - title: Real-time Dissemination Protocol for Reliability Improvementin Wireless Sensor Networks
-  authors: Taehun Yang, Sangdae Kim, Cheonyong Kim, Hyunchong Cho and Sang-Ha Kim
+  authors: <strong>Taehun Yang</strong>, Sangdae Kim, Cheonyong Kim, Hyunchong Cho and Sang-Ha Kim
   publication: Proceedings of Symposium of the Korean Institute of communications and Information Sciences, pp. 63~64, Jun. 2015.
 
 - title: Opportunistic Multipath Routing for Enhancing End-to-end Reliability in Wireless Sensor Networks
-  authors: Cheonyong Kim, Hyunchong Cho, Taehun Yang, Sangdae Kim and Sang-Ha Kim
+  authors: Cheonyong Kim, Hyunchong Cho, <strong>Taehun Yang</strong>, Sangdae Kim and Sang-Ha Kim
   publication: Proceedings of Symposium of the Korean Institute of communications and Information Sciences, pp. 65~66, Jun. 2015.
   
 - title: Accuracy enhancement for Continuous Object Tracking in Wireless Sensor Networks
-  authors: Sangdae Kim, Cheonyong Kim, Hyunchong Cho, Taehun Yang and Sang-Ha Kim
+  authors: Sangdae Kim, Cheonyong Kim, Hyunchong Cho, <strong>Taehun Yang</strong> and Sang-Ha Kim
   publication: Proceedings of Symposium of the Korean Institute of communications and Information Sciences, pp. 1366~1367, Jun. 2015.
 
 - title: Sink Mobility Support Scheme for Continuous Object Tracking in Wireless Sensor Networks
-  authors: Cheonyong Kim, Hyunchong Cho, Sangdae Kim, Taehun Yang, Sang-Ha Kim
+  authors: Cheonyong Kim, Hyunchong Cho, Sangdae Kim, <strong>Taehun Yang</strong>, Sang-Ha Kim
   publication: IEEE Advanced Information Networking and Applications (AINA), pp. 452-457 Mar. 2016.
   
 - title: Enhanced Real-time Transmission using Time Gain in Wireless Sensor Networks
-  authors: Taehun Yang, Cheonyong Kim, Sangdae Kim, Euisin Lee, Sang-Ha Kim
+  authors: <strong>Taehun Yang</strong>, Cheonyong Kim, Sangdae Kim, Euisin Lee, Sang-Ha Kim
   publication: ACM/IEEE 15th International Conference on Information Processing in Sensor Networks (IPSN), pp.1-2, April. 2016.
   
 - title: Wireless Sensor Network Construction based on Wi-Fi for Internet of Things Services
-  authors: Taehun Yang, Sangdae Kim, Cheonyong Kim, Hyunchong Cho and Sang-Ha Kim
+  authors: <strong>Taehun Yang</strong>, Sangdae Kim, Cheonyong Kim, Hyunchong Cho and Sang-Ha Kim
   publication: Proceedings of Symposium of KIISE, pp. 513~515, Jun. 2016.
   
-- title: Cheonyong Kim, Taehun Yang, Sangdae Kim, Hyunchong Cho and Sang-Ha Kim
+- title: Cheonyong Kim, <strong>Taehun Yang</strong>, Sangdae Kim, Hyunchong Cho and Sang-Ha Kim
   authors: Real-time Multicasting Scheme using Time Limitation in Wireless Sensor Networks
   publication: Proceedings of Symposium of KIISE, pp. 504~506, Jun. 2016.
   
 - title: Multipath-based Opportunistic Routing Scheme for Large-scale Wireless Sensor Networks
-  authors: Sangdae Kim, Jeongcheol Lee, Hyunchong Cho, Taehun Yang, Cheonyong Kim, and Sang-Ha Kim
+  authors: Sangdae Kim, Jeongcheol Lee, Hyunchong Cho, <strong>Taehun Yang</strong>, Cheonyong Kim, and Sang-Ha Kim
   publication: IEEE Industrial Electronics Conference (IECON), pp. 4671-4676, Oct. 2016.
 
 - title: Comparative Study for Information Collection System using Short-range Wireless Technology in Internet of Things
-  authors: Taehun Yang, Hyunchong Cho, Sangdae Kim, Cheonyong Kim and Sang-Ha Kim
+  authors: <strong>Taehun Yang</strong>, Hyunchong Cho, Sangdae Kim, Cheonyong Kim and Sang-Ha Kim
   publication: Proceedings of Symposium of the Korean Institute of communications and Information Sciences, pp. 1288~1289, Jun. 2017.
 
 - title: Low-Cost Multipath Routing Protocol by Adapting Opportunistic Routing in Wireless Sensor Networks
-  authors: Sangdae Kim, Hyunchong Cho, Taehun Yang, Cheonyong Kim, and Sang-Ha Kim
+  authors: Sangdae Kim, Hyunchong Cho, <strong>Taehun Yang</strong>, Cheonyong Kim, and Sang-Ha Kim
   publication: IEEE Wireless Communications and Networking Conference (WCNC), Mar. 2017.
 
 - title: Multipath Management Scheme for Supporting Sink Mobility in Wireless Sensor Networks
-  authors: Cheonyong Kim, Yongbin Yim, Taehun Yang, Sangdae Kim, and Sang-Ha Kim
+  authors: Cheonyong Kim, Yongbin Yim, <strong>Taehun Yang</strong>, Sangdae Kim, and Sang-Ha Kim
   publication: IEEE Wireless Communications and Networking Conference (WCNC), pp. 1-6, Mar. 2017.
 
 - title: Dynamic Anchors based Void Avoidance Scheme for Real-time Application in WSNs
-  authors: Sangdae Kim, Taehun Yang, Cheonyong Kim, Hyunchong Cho, and Sang-Ha Kim
+  authors: Sangdae Kim, <strong>Taehun Yang</strong>, Cheonyong Kim, Hyunchong Cho, and Sang-Ha Kim
   publication: IEEE Vehicular Technology Conference (VTC-Fall), pp. xxx, Sep. 2017.
 
 - title: The Energy Efficient and Disjointed Multipath for Void Handling in Wireless Sensor Networks
-  authors: Hyunchong Cho, Seungmin Oh, Yongbin Yim, Sangdae Kim, Taehun Yang, and Sang-Ha Kim
+  authors: Hyunchong Cho, Seungmin Oh, Yongbin Yim, Sangdae Kim, <strong>Taehun Yang</strong>, and Sang-Ha Kim
   publication: IEEE Vehicular Technology Conference (VTC-Fall), pp. xxx, Sep. 2017.
 
 #- number: Refereed Domestic Journal Publications
 - title: Reliable Real-Time Data Dissemination Protocol in Wireless Sensor Networks
-  authors: Taehun Yang, Yongbin Yim and Kwansoo Jung
+  authors: <strong>Taehun Yang</strong>, Yongbin Yim and Kwansoo Jung
   publication: The Journal of Korean Institute of Communications and Information Sciences, vol. 40, no. 8, pp. 1567~1576, Aug. 2015.
 
 - title: Symmetric Inter-Communication Scheme among Mobile Objects in Wireless Sensor Networks
-  authors: Sangdae Kim, Cheonyong Kim, Hyunchong Cho, Taehun Yang and Sang-Ha Kim
+  authors: Sangdae Kim, Cheonyong Kim, Hyunchong Cho, <strong>Taehun Yang</strong> and Sang-Ha Kim
   publication: The Journal of Korean Institute of Communications and Information Sciences, vol. 40, no. 10, pp. 2014~2025, Oct. 2015.
 
 - title: Local Grid-based Multipath Routing Protocol for Mobile Sink in Wireless Sensor Networks
-  authors: Taehun Yang, Sangdae Kim, Hyunchong Cho, Cheonyong Kim and Sang-Ha Kim
+  authors: <strong>Taehun Yang</strong>, Sangdae Kim, Hyunchong Cho, Cheonyong Kim and Sang-Ha Kim
   publication: Journal of KIISE, vol. 43, no. 12, pp. 1428~1436, Dec. 2016.
 
 - title: A Real-time Multicasting Protocol using Time Deadline in Wireless Sensor Networks
-  authors: Cheonyong Kim, Taehun Yang, Sangdae Kim, Hyunchong Cho and Sang-Ha Kim
+  authors: Cheonyong Kim, <strong>Taehun Yang</strong>, Sangdae Kim, Hyunchong Cho and Sang-Ha Kim
   publication: Journal of KIISE, Vol. 44, No. 1, pp. 107~113, Jan. 2017.
   
 - title: Improved Real-time Transmission Scheme using Temporal Gain in Wireless Sensor Networks
-  authors: Taehun Yang, Hyunchong Cho, Sangdae Kim, Cheonyong Kim and Sang-Ha Kim
+  authors: <strong>Taehun Yang</strong>, Hyunchong Cho, Sangdae Kim, Cheonyong Kim and Sang-Ha Kim
   publication: Journal of KIISE, vol. 44, no. 10, pp. 1062~1070, Oct. 2017.
