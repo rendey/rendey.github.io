@@ -3,9 +3,9 @@
 * {margin: 0; padding: 0;}
 #container {height: 100%; width:100%; font-size:0;}
 #left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px; font-family: "Times New Roman", Times, serif;}
-#left {width: 25%; background: white;}
-#middle {width: 75%; background: white; margin-top: 50px;}
-#right {width: 25%; background: white;}
+#left {width: 30%; background: white;}
+#middle {width: 70%; background: white; margin-top: 50px;}
+#right {width: 30%; background: white;}
 
 dl {
     margin-bottom: $spacer;
