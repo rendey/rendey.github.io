@@ -5,31 +5,21 @@ dl {
     margin-bottom: $spacer;
 }
 
-dt, dd, div {
+dt, dd {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: $spacer;
+}
+
+div {
     display: inline-block;
     vertical-align: top;
     margin-bottom: $spacer;
 }
 
 @media(min-width: 640px) {
-    dt, dd, div {
+    dt, dd {
         margin-bottom: 60px;
-    }
-
-    .experience {
-        dt {
-            width: 30%;
-            padding-right: ($spacer * 2);
-        }
-        dd {
-            width: 70%;
-        }
-    }
-
-    .education {
-        dt, dd {
-            width: 50%;
-        }
     }
 }
 
