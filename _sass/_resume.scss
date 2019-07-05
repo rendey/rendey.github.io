@@ -5,14 +5,14 @@ dl {
     margin-bottom: $spacer;
 }
 
-dt, dd {
+dt, dd, div {
     display: inline-block;
     vertical-align: top;
     margin-bottom: $spacer;
 }
 
 @media(min-width: 640px) {
-    dt, dd {
+    dt, dd, div {
         margin-bottom: 60px;
     }
 
