@@ -3,12 +3,12 @@
 # Site settings
 title: CV for Taehun Yang
 email: thyang.spring@gmail.com
-description: CV for Y
+description: CV for T.Yang
 baseurl: ""
 url: "http://rendey.github.io"
 name: Taehun Yang
-job: Ph.D Student
-location: Daejeon, S. Korea
+job: Assistant Professor
+location: Andong, S. Korea
 #languages: HTML, CSS and Javascript
 github_username:  rendey
 linkedin_username:  taehunyang
