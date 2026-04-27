@@ -1,26 +1,23 @@
-<!--
-<h3 class="section-title">Information</h3>
-<dl class="information">
-    {% for information in site.data.information %}
-        <dt>
-            <p class="title">{{ information.title }}</p>
-            <p class="company">{{ information.company }}</p>
-        </dt>
-        <dd>
-            <p>{{ information.description }}</p>
-</dd>
-{% endfor %}
-</dl>
--->
+{% assign publications = site.data.publication | default: site.data.publications %}
+{% assign experiences = site.data.experience | default: site.data.experiences %}
+{% assign educations = site.data.education | default: site.data.educations %}
+{% assign certifications = site.data.certification | default: site.data.certifications %}
+{% assign course_items = site.data.courses | default: site.data.course %}
 
 <section class="resume-section">
     <h3 class="section-title">Publications</h3>
     <div class="publication resume-list">
-        {% for publication in site.data.publication %}
+        {% for publication in publications %}
             <article class="resume-card">
-                <p class="title">{{ publication.title }}</p>
-                <p class="authors">{{ publication.authors }}</p>
-                <p class="publication">{{ publication.publication }}</p>
+                {% if publication.title %}
+                    <p class="title">{{ publication.title }}</p>
+                {% endif %}
+                {% if publication.authors %}
+                    <p class="authors">{{ publication.authors }}</p>
+                {% endif %}
+                {% if publication.publication %}
+                    <p class="publication">{{ publication.publication }}</p>
+                {% endif %}
             </article>
         {% endfor %}
     </div>
@@ -29,13 +26,19 @@
 <section class="resume-section">
     <h3 class="section-title">Professional Experience</h3>
     <div class="experience resume-list">
-        {% for experience in site.data.experience %}
+        {% for experience in experiences %}
             <article class="resume-card">
-                <p class="title">{{ experience.title }}</p>
-                <div class="resume-meta">
-                    <p class="period">{{ experience.period }}</p>
-                </div>
-                <p class="description">{{ experience.description }}</p>
+                {% if experience.title %}
+                    <p class="title">{{ experience.title }}</p>
+                {% endif %}
+                {% if experience.period %}
+                    <div class="resume-meta">
+                        <p class="period">{{ experience.period }}</p>
+                    </div>
+                {% endif %}
+                {% if experience.description %}
+                    <p class="description">{{ experience.description }}</p>
+                {% endif %}
             </article>
         {% endfor %}
     </div>
@@ -44,14 +47,24 @@
 <section class="resume-section">
     <h3 class="section-title">Education</h3>
     <div class="education resume-list">
-        {% for qualification in site.data.education %}
+        {% for qualification in educations %}
             <article class="resume-card">
-                <p class="title">{{ qualification.qualification }}</p>
-                <div class="resume-meta">
-                    <p class="company">{{ qualification.school }}</p>
-                    <p class="period">{{ qualification.period }}</p>
-                </div>
-                <p class="description">{{ qualification.description }}</p>
+                {% if qualification.qualification %}
+                    <p class="title">{{ qualification.qualification }}</p>
+                {% endif %}
+                {% if qualification.school or qualification.period %}
+                    <div class="resume-meta">
+                        {% if qualification.school %}
+                            <p class="company">{{ qualification.school }}</p>
+                        {% endif %}
+                        {% if qualification.period %}
+                            <p class="period">{{ qualification.period }}</p>
+                        {% endif %}
+                    </div>
+                {% endif %}
+                {% if qualification.description %}
+                    <p class="description">{{ qualification.description }}</p>
+                {% endif %}
             </article>
         {% endfor %}
     </div>
@@ -60,14 +73,24 @@
 <section class="resume-section">
     <h3 class="section-title">Awards, Scholarship, and Fellowship</h3>
     <div class="certification resume-list">
-        {% for certification in site.data.certification %}
+        {% for certification in certifications %}
             <article class="resume-card">
-                <p class="title">{{ certification.certification }}</p>
-                <div class="resume-meta">
-                    <p class="company">{{ certification.school }}</p>
-                    <p class="period">{{ certification.period }}</p>
-                </div>
-                <p class="description">{{ certification.description }}</p>
+                {% if certification.certification %}
+                    <p class="title">{{ certification.certification }}</p>
+                {% endif %}
+                {% if certification.school or certification.period %}
+                    <div class="resume-meta">
+                        {% if certification.school %}
+                            <p class="company">{{ certification.school }}</p>
+                        {% endif %}
+                        {% if certification.period %}
+                            <p class="period">{{ certification.period }}</p>
+                        {% endif %}
+                    </div>
+                {% endif %}
+                {% if certification.description %}
+                    <p class="description">{{ certification.description }}</p>
+                {% endif %}
             </article>
         {% endfor %}
     </div>
@@ -76,13 +99,19 @@
 <section class="resume-section">
     <h3 class="section-title">Relevant Courses</h3>
     <div class="courses resume-list">
-        {% for courses in site.data.courses %}
+        {% for courses in course_items %}
             <article class="resume-card">
-                <p class="title">{{ courses.title }}</p>
-                <div class="resume-meta">
-                    <p class="company">{{ courses.course }}</p>
-                </div>
-                <p class="description">{{ courses.description }}</p>
+                {% if courses.title %}
+                    <p class="title">{{ courses.title }}</p>
+                {% endif %}
+                {% if courses.course %}
+                    <div class="resume-meta">
+                        <p class="company">{{ courses.course }}</p>
+                    </div>
+                {% endif %}
+                {% if courses.description %}
+                    <p class="description">{{ courses.description }}</p>
+                {% endif %}
             </article>
         {% endfor %}
     </div>
