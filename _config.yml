@@ -2,19 +2,23 @@
 
 # Site settings
 title: CV for Taehun Yang
-email: thyang.spring@gmail.com
+email: thyang@gknu.ac.kr
 description: CV for T.Yang
 baseurl: ""
 url: "http://rendey.github.io"
 name: Taehun Yang
 job: Assistant Professor
-location: Andong, S. Korea
+location: Andong, South Korea
 #languages: HTML, CSS and Javascript
 github_username:  rendey
 linkedin_username:  taehunyang
-email_address: thyang.spring@gmail.com
-introduction: Taehun Yang is working as an assistant professor in Computer Engineering at Andong National University since 2023. He worked as a postdoctoral researcher at Kongju National University in 2022. He received a Ph.D. degree in Computer Engineering at Chungnam National University, in 2022. He received a B.S. degree in Computer Engineering from Chungnam National University, in 2014. His research areas are computer communication, mobile computing, wireless communication, and digital twin.
+email_address: thyang.anu@gmail.com
+introduction: Taehun Yang is an assistant professor in the Computer Science and Engineering Major, School of IT Convergence Engineering at Gyeongkuk National University (formerly Andong National University), where he has been serving since 2023. He was a postdoctoral researcher at Kongju National University from 2022 to 2023. He received his Ph.D. in Computer Engineering from Chungnam National University in 2022 and his B.S. in Computer Engineering from the same university in 2014. His research interests include computer communications, mobile computing, wireless communications, Internet of Things, and digital twins.
 
 # Build settings
 #markdown: kramdown
 markdown: markdown
+
+sass:
+  silence_deprecations:
+    - import

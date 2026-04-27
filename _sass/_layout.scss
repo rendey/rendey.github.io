@@ -5,9 +5,19 @@
 $spacer: 20px;
 
 .container {
-    max-width: 860px;
+    width: 1000px;
+    max-width: none;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resume-container {
+    width: 100%;
+    max-width: 1180px;
     margin: 0 auto;
     padding: 0 $spacer;
+    box-sizing: border-box;
 }
 
 .section-title {

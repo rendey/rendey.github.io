@@ -4,115 +4,129 @@
 {% assign certifications = site.data.certification | default: site.data.certifications %}
 {% assign course_items = site.data.courses | default: site.data.course %}
 
+{% if publications and publications.size > 0 %}
 <section class="resume-section">
     <h3 class="section-title">Publications</h3>
     <div class="publication resume-list">
         {% for publication in publications %}
-            <article class="resume-card">
-                {% if publication.title %}
-                    <p class="title">{{ publication.title }}</p>
-                {% endif %}
-                {% if publication.authors %}
-                    <p class="authors">{{ publication.authors }}</p>
-                {% endif %}
-                {% if publication.publication %}
-                    <p class="publication">{{ publication.publication }}</p>
-                {% endif %}
-            </article>
+        <article class="resume-card">
+            {% if publication.title %}
+            <p class="title">{{ publication.title }}</p>
+            {% endif %}
+            {% if publication.authors %}
+            <p class="authors">{{ publication.authors }}</p>
+            {% endif %}
+            {% if publication.publication %}
+            <p class="publication">{{ publication.publication }}</p>
+            {% endif %}
+        </article>
         {% endfor %}
     </div>
 </section>
+{% endif %}
 
+{% if experiences and experiences.size > 0 %}
 <section class="resume-section">
     <h3 class="section-title">Professional Experience</h3>
     <div class="experience resume-list">
         {% for experience in experiences %}
-            <article class="resume-card">
-                {% if experience.title %}
-                    <p class="title">{{ experience.title }}</p>
-                {% endif %}
-                {% if experience.period %}
-                    <div class="resume-meta">
-                        <p class="period">{{ experience.period }}</p>
-                    </div>
-                {% endif %}
-                {% if experience.description %}
-                    <p class="description">{{ experience.description }}</p>
-                {% endif %}
-            </article>
+        <article class="resume-card">
+            {% if experience.title %}
+            <p class="title">{{ experience.title }}</p>
+            {% endif %}
+            {% if experience.period %}
+            <div class="resume-meta">
+                <p class="period">{{ experience.period }}</p>
+            </div>
+            {% endif %}
+            {% if experience.description %}
+            <p class="description">{{ experience.description }}</p>
+            {% endif %}
+        </article>
         {% endfor %}
     </div>
 </section>
+{% endif %}
 
+{% if educations and educations.size > 0 %}
 <section class="resume-section">
     <h3 class="section-title">Education</h3>
     <div class="education resume-list">
         {% for qualification in educations %}
-            <article class="resume-card">
-                {% if qualification.qualification %}
-                    <p class="title">{{ qualification.qualification }}</p>
+        <article class="resume-card">
+            {% if qualification.qualification %}
+            <p class="title">{{ qualification.qualification }}</p>
+            {% elsif qualification.title %}
+            <p class="title">{{ qualification.title }}</p>
+            {% endif %}
+            {% if qualification.school or qualification.period %}
+            <div class="resume-meta">
+                {% if qualification.school %}
+                <p class="company">{{ qualification.school }}</p>
                 {% endif %}
-                {% if qualification.school or qualification.period %}
-                    <div class="resume-meta">
-                        {% if qualification.school %}
-                            <p class="company">{{ qualification.school }}</p>
-                        {% endif %}
-                        {% if qualification.period %}
-                            <p class="period">{{ qualification.period }}</p>
-                        {% endif %}
-                    </div>
+                {% if qualification.period %}
+                <p class="period">{{ qualification.period }}</p>
                 {% endif %}
-                {% if qualification.description %}
-                    <p class="description">{{ qualification.description }}</p>
-                {% endif %}
-            </article>
+            </div>
+            {% endif %}
+            {% if qualification.description %}
+            <p class="description">{{ qualification.description }}</p>
+            {% endif %}
+        </article>
         {% endfor %}
     </div>
 </section>
+{% endif %}
 
+{% if certifications and certifications.size > 0 %}
 <section class="resume-section">
     <h3 class="section-title">Awards, Scholarship, and Fellowship</h3>
     <div class="certification resume-list">
         {% for certification in certifications %}
-            <article class="resume-card">
-                {% if certification.certification %}
-                    <p class="title">{{ certification.certification }}</p>
+        <article class="resume-card">
+            {% if certification.certification %}
+            <p class="title">{{ certification.certification }}</p>
+            {% elsif certification.title %}
+            <p class="title">{{ certification.title }}</p>
+            {% endif %}
+            {% if certification.school or certification.period %}
+            <div class="resume-meta">
+                {% if certification.school %}
+                <p class="company">{{ certification.school }}</p>
                 {% endif %}
-                {% if certification.school or certification.period %}
-                    <div class="resume-meta">
-                        {% if certification.school %}
-                            <p class="company">{{ certification.school }}</p>
-                        {% endif %}
-                        {% if certification.period %}
-                            <p class="period">{{ certification.period }}</p>
-                        {% endif %}
-                    </div>
+                {% if certification.period %}
+                <p class="period">{{ certification.period }}</p>
                 {% endif %}
-                {% if certification.description %}
-                    <p class="description">{{ certification.description }}</p>
-                {% endif %}
-            </article>
+            </div>
+            {% endif %}
+            {% if certification.description %}
+            <p class="description">{{ certification.description }}</p>
+            {% endif %}
+        </article>
         {% endfor %}
     </div>
 </section>
+{% endif %}
 
+{% if course_items and course_items.size > 0 %}
 <section class="resume-section">
     <h3 class="section-title">Relevant Courses</h3>
     <div class="courses resume-list">
         {% for courses in course_items %}
-            <article class="resume-card">
-                {% if courses.title %}
-                    <p class="title">{{ courses.title }}</p>
-                {% endif %}
-                {% if courses.course %}
-                    <div class="resume-meta">
-                        <p class="company">{{ courses.course }}</p>
-                    </div>
-                {% endif %}
-                {% if courses.description %}
-                    <p class="description">{{ courses.description }}</p>
-                {% endif %}
-            </article>
+        <article class="resume-card">
+            {% if courses.title %}
+            <p class="title">{{ courses.title }}</p>
+            {% endif %}
+            {% if courses.course %}
+            <div class="resume-meta">
+                <p class="company">{{ courses.course }}</p>
+            </div>
+            {% endif %}
+            {% if courses.description %}
+            <p class="description">{{ courses.description }}</p>
+            {% endif %}
+        </article>
         {% endfor %}
     </div>
 </section>
+{% endif %}
