@@ -14,7 +14,11 @@
             <p class="title">{{ publication.title }}</p>
             {% endif %}
             {% if publication.authors %}
-            <p class="authors">{{ publication.authors }}</p>
+            <p class="authors">
+                {{ publication.authors
+                    | replace: 'Taehun Yang', '<strong>Taehun Yang</strong>'
+                    | replace: '양태훈', '<strong>양태훈</strong>' }}
+            </p>
             {% endif %}
             {% if publication.publication %}
             <p class="publication">{{ publication.publication }}</p>
@@ -113,14 +117,17 @@
     <h3 class="section-title">Relevant Courses</h3>
     <div class="courses resume-list">
         {% for courses in course_items %}
-        <article class="resume-card">
+        <article class="resume-card course-card">
             {% if courses.title %}
-            <p class="title">{{ courses.title }}</p>
+            <p class="title course-title">{{ courses.title }}</p>
             {% endif %}
             {% if courses.course %}
-            <div class="resume-meta">
-                <p class="company">{{ courses.course }}</p>
-            </div>
+            <ul class="course-subject-list">
+                {% assign subject_items = courses.course | split: ',' %}
+                {% for subject in subject_items %}
+                <li class="course-subject-item">{{ subject | strip }}</li>
+                {% endfor %}
+            </ul>
             {% endif %}
             {% if courses.description %}
             <p class="description">{{ courses.description }}</p>
